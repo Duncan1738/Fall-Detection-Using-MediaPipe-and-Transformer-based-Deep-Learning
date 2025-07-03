@@ -6,10 +6,10 @@ The dataset consists of labeled **human posture classes** such as **falling, sta
 ---
 
 ##  Features
-✅ **Data Preprocessing** – Normalizes and reshapes **time-series pose data** collected using **MediaPipe**.  
-✅ **Transformer-Based Neural Network** – Implements a **custom Transformer model** for **sequential pose classification**.  
-✅ **Evaluation Metrics** – Computes **accuracy, precision, recall, F1-score**, and visualizes **confusion matrices and ROC curves**.  
-✅ **Real-Time Prediction Capability** – The model can **classify human postures and detect falls** in real-time.  
+**Data Preprocessing** – Normalizes and reshapes **time-series pose data** collected using **MediaPipe**.  
+**Transformer-Based Neural Network** – Implements a **custom Transformer model** for **sequential pose classification**.  
+**Evaluation Metrics** – Computes **accuracy, precision, recall, F1-score**, and visualizes **confusion matrices and ROC curves**.  
+**Real-Time Prediction Capability** – The model can **classify human postures and detect falls** in real-time.  
 
 ---
 
