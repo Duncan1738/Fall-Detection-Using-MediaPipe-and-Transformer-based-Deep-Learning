@@ -40,12 +40,11 @@ Each CSV file consists of **sequential pose keypoint data**, reshaped into **3D 
 
 ## Installation and Setup
 
-### ** Clone the Repository**
-```bash
+**Clone the Repository**
 git clone https://github.com/Duncan1738/fall-detection-transformer.git
 cd fall-detection-transformer
 
-2️⃣ Install Required Dependencies
+ Install Required Dependencies
 
 pip install -r requirements.txt
 3️⃣ Run the Training Script
