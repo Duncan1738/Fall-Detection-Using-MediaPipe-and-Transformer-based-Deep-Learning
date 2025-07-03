@@ -85,3 +85,6 @@ Visualizes performance with:
 (Replace with training history plot)
 
 - ROC Curve for Fall Detection
+
+ ---
+ MIT licence
