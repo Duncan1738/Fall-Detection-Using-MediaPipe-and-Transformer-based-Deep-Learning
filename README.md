@@ -13,8 +13,9 @@ The dataset consists of labeled **human posture classes** such as **falling, sta
 
 ---
 
-## 📂 Project Structure
-📂 fall-detection-transformer │── 📂 dataset/ # MediaPipe CSV files for pose data │ │── falling_df.csv # Data for falling events │ │── stand_up_df.csv # Data for standing up │ │── ... (more CSV files)
+## Project Structure
+📂 fall-detection-transformer 
+│── 📂 dataset/ # MediaPipe CSV files for pose data │ │── falling_df.csv # Data for falling events │ │── stand_up_df.csv # Data for standing up │ │── ... (more CSV files)
 │── 📂 saved_models/ # Directory for storing trained models │── transformer_model.py # Main script for data preprocessing, model training, and evaluation │── fall_detection.py # Script for real-time fall detection │── requirements.txt # Dependencies │── README.md # Documentation
 
 
