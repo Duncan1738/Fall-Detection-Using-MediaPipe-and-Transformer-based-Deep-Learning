@@ -38,9 +38,9 @@ Each CSV file consists of **sequential pose keypoint data**, reshaped into **3D 
 
 ---
 
-## 🚀 Installation and Setup
+## Installation and Setup
 
-### **1️⃣ Clone the Repository**
+### ** Clone the Repository**
 ```bash
 git clone https://github.com/Duncan1738/fall-detection-transformer.git
 cd fall-detection-transformer
