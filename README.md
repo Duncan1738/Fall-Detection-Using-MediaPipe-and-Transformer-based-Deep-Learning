@@ -59,7 +59,8 @@ Global average pooling and dense layers for classification.
 - Training and Evaluation
 Splits dataset into training (80%) and testing (20%).
 Implements early stopping to prevent overfitting.
-Visualizes performance with: ✅ Confusion matrices
+Visualizes performance with:
+- Confusion matrices
 -  ROC curves
 -  Accuracy/loss plots
 ---
