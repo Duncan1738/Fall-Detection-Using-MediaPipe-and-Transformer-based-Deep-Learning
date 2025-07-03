@@ -40,20 +40,13 @@ Each CSV file consists of **sequential pose keypoint data**, reshaped into **3D 
 
 ## Installation and Setup
 
-**Clone the Repository**
-git clone https://github.com/Duncan1738/fall-detection-transformer.git
-cd fall-detection-transformer
-
- Install Required Dependencies
-
-pip install -r requirements.txt
-3️⃣ Run the Training Script
-
-python transformer_model.py
-4️⃣ Perform Real-Time Fall Detection (Using Camera)
-
-python fall_detection.py
-🔧 Workflow
+- Clone the Repository:git clone https://github.com/Duncan1738/fall-detection-transformer.git
+- cd fall-detection-transformer
+- Install Required Dependencies:pip install -r requirements.txt
+- Run the Training Script: python transformer_model.py
+- Perform Real-Time Fall Detection (Using Camera):python fall_detection.py
+---
+## Workflow
 1️⃣ Data Preprocessing
 Loads pose keypoint data from CSV files.
 Drops unnecessary columns (midpoint_1, midpoint_2, central_point).
