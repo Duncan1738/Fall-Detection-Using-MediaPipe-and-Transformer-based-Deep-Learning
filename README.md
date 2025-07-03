@@ -21,7 +21,7 @@ The dataset consists of labeled **human posture classes** such as **falling, sta
 
 ---
 
-## 📊 Dataset Overview
+## Dataset Overview
 
 The dataset contains **pose keypoints captured using MediaPipe**, representing different human postures.
 
