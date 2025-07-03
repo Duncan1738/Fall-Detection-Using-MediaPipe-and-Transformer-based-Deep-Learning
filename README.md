@@ -1,4 +1,4 @@
-# 📉 Fall Detection Using MediaPipe and Transformer-Based Deep Learning  
+# Fall Detection Using MediaPipe and Transformer-Based Deep Learning  
 
 This project focuses on detecting different **human postures and fall events** using **MediaPipe-based pose data** and a **Transformer-based deep learning model**.  
 The dataset consists of labeled **human posture classes** such as **falling, standing, sitting, lying down, and more** to train and evaluate the model for **real-time fall detection**.
