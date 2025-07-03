@@ -65,13 +65,16 @@ Visualizes performance with: ✅ Confusion matrices
 ---
 ## Example Output
 🔹 Classification Report
-              precision    recall    f1-score   support
-falling          0.95       0.93       0.94       100
-stand_up        0.92       0.91       0.91       100
-standing        0.90       0.92       0.91       100
-lie_down        0.94       0.95       0.94       100
-sit_down        0.89       0.90       0.89       100
-lie             0.92       0.90       0.91       100
+
+| Class      | Precision | Recall | F1-Score | Support |
+|------------|-----------|--------|----------|---------|
+| Falling    | 0.95      | 0.93   | 0.94     | 100     |
+| Stand_Up   | 0.92      | 0.91   | 0.91     | 100     |
+| Standing   | 0.90      | 0.92   | 0.91     | 100     |
+| Lie_Down   | 0.94      | 0.95   | 0.94     | 100     |
+| Sit_Down   | 0.89      | 0.90   | 0.89     | 100     |
+| Lie        | 0.92      | 0.90   | 0.91     | 100     |
+
 ---
 
 - Confusion Matrix
