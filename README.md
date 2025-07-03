@@ -62,6 +62,7 @@ Implements early stopping to prevent overfitting.
 Visualizes performance with: ✅ Confusion matrices
 -  ROC curves
 -  Accuracy/loss plots
+---
 ## Example Output
 🔹 Classification Report
               precision    recall    f1-score   support
@@ -71,10 +72,12 @@ standing        0.90       0.92       0.91       100
 lie_down        0.94       0.95       0.94       100
 sit_down        0.89       0.90       0.89       100
 lie             0.92       0.90       0.91       100
- Confusion Matrix
+---
+
+- Confusion Matrix
 (Replace with your actual confusion matrix image)
 
-📉 Accuracy & Loss Plots
+- Accuracy & Loss Plots
 (Replace with training history plot)
 
-📈 ROC Curve for Fall Detection
+- ROC Curve for Fall Detection
