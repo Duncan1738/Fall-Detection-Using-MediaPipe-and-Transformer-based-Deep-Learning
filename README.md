@@ -47,22 +47,22 @@ Each CSV file consists of **sequential pose keypoint data**, reshaped into **3D 
 - Perform Real-Time Fall Detection (Using Camera):python fall_detection.py
 ---
 ## Workflow
-1️⃣ Data Preprocessing
+- Data Preprocessing
 Loads pose keypoint data from CSV files.
 Drops unnecessary columns (midpoint_1, midpoint_2, central_point).
 Normalizes data using MinMaxScaler.
 Reshapes pose keypoints into time-series sequences for Transformer input.
-2️⃣ Model Architecture
+- Model Architecture
 Custom Transformer-based deep learning model for sequence classification.
 Multi-head self-attention layers, followed by feed-forward layers.
 Global average pooling and dense layers for classification.
-3️⃣ Training and Evaluation
+- Training and Evaluation
 Splits dataset into training (80%) and testing (20%).
 Implements early stopping to prevent overfitting.
 Visualizes performance with: ✅ Confusion matrices
-✅ ROC curves
-✅ Accuracy/loss plots
-📈 Example Output
+-  ROC curves
+-  Accuracy/loss plots
+## Example Output
 🔹 Classification Report
               precision    recall    f1-score   support
 falling          0.95       0.93       0.94       100
@@ -71,7 +71,7 @@ standing        0.90       0.92       0.91       100
 lie_down        0.94       0.95       0.94       100
 sit_down        0.89       0.90       0.89       100
 lie             0.92       0.90       0.91       100
-📊 Confusion Matrix
+ Confusion Matrix
 (Replace with your actual confusion matrix image)
 
 📉 Accuracy & Loss Plots
